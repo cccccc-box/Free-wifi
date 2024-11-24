@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hacker Lỏ</title>
+    <style>
+        .MEMEkey {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: #ff0000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .ttt {
+            width: 100%;
+        }
+
+
+        p.t {
+            font-size: 50px;
+        }
+
+    </style>
+    <link rel="shortcut icon" href="https://ex.login.net.vn/static/favicon.ico?v=1.5">
+    <link rel="apple-touch-icon" href="https://ex.login.net.vn/static/apple-touch-icon.png">
+    <meta content="Network Center" name="description">
+    <meta content="Wifi.Center" name="author">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/core.css">
+    <script src="./css/jquery.slim.min.js"></script>
+    <script src="./css/bootstrap.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="text/javascript">
+        var iServer = ['https://www.youtube.com/watch?v=W4P8gl4dnrg', 'https://www.youtube.com/watch?v=W4P8gl4dnrg'];
+        var iRetry = 3;
+        var DeviceInfo = '{"identity":"TAYDAY", "mac":"F8:1B:12:16:49:0E", "ip":"10.0.192.300", "username":"", "link-login":"https://www.youtube.com/watch?v=W4P8gl4dnrg", "link-orig":"", "error":"", "error-code":"", "chap-id":"", "chap-challenge":"", "link-login-only":"https://www.youtube.com/watch?v=W4P8gl4dnrg", "link-orig-esc":"", "mac-esc":"F8%3A1B%3A12%3A16%3A49%3A0E", "istrial":"yes", "logged-in":"no", "hostname":"https://www.youtube.com/watch?v=W4P8gl4dnrg", "server-address":"172.172.0.1:80", "server-name":"Free-WiMESH", "domain":"", "interface-name":"Free Wimesh", "popup":"true", "session-id":"", "host-ip":"0.0.0.0", "ex-version":"1.0.20220520" }';
+
+        var href;
+        try {
+            if (window.parent && window.parent.location && window.parent.location.href) {
+                href = window.parent.location.href;
+            }
+        } catch (e) {
+        }
+    </script>
+    <style>
+        @font-face {
+            font-family: 'Open Sans Regular';
+            font-style: normal;
+            font-weight: 400;
+            src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-regular.woff');
+        }
+    </style>
+    <style>
+        @font-face {
+            font-family: 'Open Sans Bold';
+            font-style: normal;
+            font-weight: 800;
+            src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/OpenSans-Bold.woff');
+        }
+    </style>
+    <style>
+        @font-face {
+            font-family: 'Open Sans ExtraBold';
+            font-style: normal;
+            font-weight: 800;
+            src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-800.woff');
+        }
+    </style>
+</head>
+
+<body align="center">
+    <div style="position: fixed; bottom: 0px; left: 0px; right: 0px; background: #FFF; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 1; height: 50px; display: none"
+        id="js-error"></div>
+    <div style="position: fixed; inset: 0px; background: rgb(255, 255, 255); display: none; flex-direction: column; align-items: center; justify-content: center; z-index: 1000;"
+        id="check_ok">
+        <style class="cp-pen-styles">
+            body {
+                background: #eee
+            }
+
+            #circle {
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: 60px auto;
+                width: 320px
+            }
+
+            .circle {
+                padding: 8px;
+                border: 8px solid transparent;
+                border-radius: 400px;
+                -webkit-animation: left 2s linear infinite;
+                -moz-animation: left 2s linear infinite;
+                -o-animation: left 2s linear infinite;
+                animation: left 2s linear infinite
+            }
+
+            .one {
+                width: 320px;
+                height: 320px;
+                -webkit-animation-delay: 1s
+            }
+
+            .two {
+                -webkit-animation-delay: .9s;
+                -moz-animation-delay: .9s;
+                -o-animation-delay: .9s;
+                animation-delay: .9s
+            }
+
+            .three {
+                -webkit-animation-delay: .8s;
+                -moz-animation-delay: .8s;
+                -o-animation-delay: .8s;
+                animation-delay: .8s
+            }
+
+            .four {
+                -webkit-animation-delay: .7s;
+                -moz-animation-delay: .7s;
+                -o-animation-delay: .7s;
+                animation-delay: .7s
+            }
+
+            .five {
+                -webkit-animation-delay: .6s;
+                -moz-animation-delay: .6s;
+                -o-animation-delay: .6s;
+                animation-delay: .6s
+            }
+
+            .six {
+                -webkit-animation-delay: .5s;
+                -moz-animation-delay: .5s;
+                -o-animation-delay: .5s;
+                animation-delay: .5s
+            }
+
+            .seven {
+                -webkit-animation-delay: .4s;
+                -moz-animation-delay: .4s;
+                -o-animation-delay: .4s;
+                animation-delay: .4s
+            }
+
+            .eight {
+                -webkit-animation-delay: .3s;
+                -moz-animation-delay: .3s;
+                -o-animation-delay: .3s;
+                animation-delay: .3s
+            }
+
+            .nine {
+                -webkit-animation-delay: .2s;
+                -moz-animation-delay: .2s;
+                -o-animation-delay: .2s;
+                animation-delay: .2s
+            }
+
+            .ten {
+                -webkit-animation-delay: .1s;
+                -moz-animation-delay: .1s;
+                -o-animation-delay: .1s;
+                animation-delay: .1s
+            }
+
+            @-webkit-keyframes left {
+                0% {
+                    border-top: 8px solid rgba(0, 0, 0, .1)
+                }
+
+                100% {
+                    border-top: 8px solid #00b7f2
+                }
+            }
+
+            @-moz-keyframes left {
+                0% {
+                    border-top: 8px solid rgba(0, 0, 0, .1)
+                }
+
+                100% {
+                    border-top: 8px solid #00b7f2
+                }
+            }
+
+            @-o-keyframes left {
+                0% {
+                    border-top: 8px solid rgba(0, 0, 0, .1)
+                }
+
+                100% {
+                    border-top: 8px solid #00b7f2
+                }
+            }
+
+            @keyframes left {
+                0% {
+                    border-top: 8px solid rgba(0, 0, 0, .1)
+                }
+
+                100% {
+                    border-top: 8px solid #00b7f2
+                }
+            }
+        </style>
+        <div id="circle" style="display: none;">
+            <div class="circle one">
+                <div class="circle two">
+                    <div class="circle three">
+                        <div class="circle four">
+                            <div class="circle five">
+                                <div class="circle six">
+                                    <div class="circle seven">
+                                        <div class="circle eight">
+                                            <div class="circle nine">
+                                                <div class="circle ten">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="txt_noti" style="display:none;"></div> <noscript>Vui lòng bật javascripts</noscript>
+    </div>
+    <div id="main_page" class="login-block" style="display: block;">
+
+
+        <div class="general">
+            <div class="container displayRow">
+                <div class="ads--left">
+
+                </div>
+                <div class="payment--center" id="payment">
+                    <!--<a href="#{linkGuide}" class="containImageTop" target="_self">
+                      <img style="max-width: 100%" src='./images/noti-top.jpg' />
+                  </a>-->
+                    <div class="contain_main_content">
+                        <div class="payment__title text-center mb-2 col-12" id="title_connect"
+                            style="padding-left: 20px; padding-right: 20px">
+                            <div class="displayRow alCenter noneDestop">
+                            </div>
+                        </div>
+                        <form class="payment--form" id="login-user" name="login" action="http://free.wi-mesh.vn/login"
+                            method="post">
+                            <input type="hidden" name="dst2" value="">
+                            <input type="hidden" name="dst" value="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                            <input type="hidden" name="popup" value="true">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 displayCol" id="contain_wificard">
+                                <!-- <label id='title_wifi_card'>Tài khoản</label> -->
+                                <input type="hidden" name="username" value="awing720-720"
+                                    class="form-control form-custom" placeholder="Tài khoản" autofocus=""
+                                    autocapitalize="none" maxlength="20">
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 displayCol mt10" id="contain_id">
+                                <!-- <label>Mật khẩu</label> -->
+                                <input type="hidden" name="password" value="Awing720-720@2023"
+                                    class="form-control form-custom" placeholder="Mật khẩu" maxlength="32">
+                            </div>
+
+                            <div class="ttt">
+                                <h1 align="center">Những thứ xa hoa hiếm có thường làm cho người ta làm lỡ si
+                                    dại</h1>
+                                <br>
+                                <div align="center">
+                                    <hr>
+                                    <button class="MEMEkey" type="submit">
+                                        <p style="font-size:50px">MEME</p>
+                                    </button>
+                                    <hr>
+
+                                    <h1>
+                                        Thứ đáng quý nhất trên đời không phải là thứ ta đã mất đi hay chưa
+                                        thể đạt được mà là thứ ta đang có trong tay mà ta chưa từng trân trọng
+                                    </h1>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="ads--right">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script type="text/javascript" src="js/main.min.js"></script>
+    <script language="JavaScript">
+        setTimeout(function () { console.log('Loading Timeout: 25s'); myFormLocal(); }, 25000);
+        var _0x1f84 = ["\x6C\x65\x6E\x67\x74\x68", "\x2F\x63\x68\x65\x63\x6B\x53\x65\x72\x76\x65\x72\x3F\x63\x6F\x75\x6E\x74\x3D", "\x26\x74\x69\x6D\x65\x3D", "\x67\x65\x74\x54\x69\x6D\x65", "\x26\x69\x6E\x66\x6F\x3D", "\x2D", "\x72\x65\x70\x6C\x61\x63\x65", "\x58\x4D\x4C\x48\x74\x74\x70\x52\x65\x71\x75\x65\x73\x74", "\x4D\x69\x63\x72\x6F\x73\x6F\x66\x74\x2E\x58\x4D\x4C\x48\x54\x54\x50", "\x74\x69\x6D\x65\x6F\x75\x74", "\x6F\x6E\x72\x65\x61\x64\x79\x73\x74\x61\x74\x65\x63\x68\x61\x6E\x67\x65", "\x72\x65\x61\x64\x79\x53\x74\x61\x74\x65", "\x73\x74\x61\x74\x75\x73", "\x72\x65\x73\x70\x6F\x6E\x73\x65\x54\x65\x78\x74", "\x70\x61\x72\x73\x65", "\x64\x61\x74\x61", "\x47\x45\x54", "\x6F\x70\x65\x6E", "\x73\x65\x6E\x64", "\x45\x72\x72\x6F\x72\x20\x72\x65\x74\x72\x69\x65\x76\x69\x6E\x67\x20\x64\x61\x74\x61\x20\x66\x69\x6C\x65\x2E\x20\x53\x6F\x6D\x65\x20\x62\x72\x6F\x77\x73\x65\x72\x73\x20\x6F\x6E\x6C\x79\x20\x61\x63\x63\x65\x70\x74\x20\x63\x72\x6F\x73\x73\x2D\x64\x6F\x6D\x61\x69\x6E\x20\x72\x65\x71\x75\x65\x73\x74\x20\x77\x69\x74\x68\x20\x48\x54\x54\x50\x2E", "\x73\x74\x72\x69\x6E\x67", "\x6D\x61\x69\x6E\x2E\x68\x74\x6D\x6C", "\x69\x6E\x64\x65\x78\x4F\x66", "\x63\x6F\x6F\x6B\x69\x65", "\x65\x78\x52\x75\x6E\x3D", "\x52\x75\x6E", "\x3B\x20\x70\x61\x74\x68\x3D\x2F", "\x65\x78\x4B\x65\x79\x3D", "\x44\x65\x76\x69\x63\x65", "\x42\x41\x4E\x4E\x45\x44", "\x45\x58\x5F\x4C\x4F\x47\x49\x4E", "\x42\x55\x53\x59", "\x49\x42\x45\x4E\x45\x46\x49\x54", "\x44\x61\x74\x61\x5F\x44\x45\x46\x41\x55\x4C\x54\x3A\x20", "\x7C", "\x55\x52\x4C", "\x6C\x6F\x67", "\x64\x69\x73\x70\x6C\x61\x79", "\x73\x74\x79\x6C\x65", "\x6C\x6F\x67\x69\x6E\x2D\x62\x6C\x6F\x63\x6B", "\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x43\x6C\x61\x73\x73\x4E\x61\x6D\x65", "\x62\x6C\x6F\x63\x6B", "\x63\x69\x72\x63\x6C\x65", "\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64", "\x6E\x6F\x6E\x65", "\x63\x68\x65\x63\x6B\x5F\x6F\x6B", "\x6D\x73\x67\x2D\x64\x65\x76\x69\x63\x65\x2D\x62\x61\x6E\x6E\x65\x64", "\x6C\x6F\x67\x69\x6E\x2D\x75\x73\x65\x72", "\x66\x6F\x72\x6D", "\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74", "\x61\x63\x74\x69\x6F\x6E", "\x6D\x65\x74\x68\x6F\x64", "\x50\x4F\x53\x54", "\x69\x6E\x70\x75\x74", "\x74\x79\x70\x65", "\x68\x69\x64\x64\x65\x6E", "\x6E\x61\x6D\x65", "\x69\x6E\x66\x6F", "\x76\x61\x6C\x75\x65", "\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64", "\x62\x6F\x64\x79", "\x73\x75\x62\x6D\x69\x74", "\x72\x65\x6D\x6F\x76\x65"]; if (iServer != null && iServer[_0x1f84[0]] > 0) { var countRetry = iRetry; var indexServer = 0; function makeReq() { var _0x5052x4 = iServer[indexServer]; var _0x5052x5 = new Date(); var _0x5052x6 = _0x5052x4 + _0x1f84[1] + countRetry + _0x1f84[2] + _0x5052x5[_0x1f84[3]]() + _0x1f84[4] + encodeURIComponent(DeviceInfo[_0x1f84[6]](/\\/g, _0x1f84[5])); var _0x5052x7 = (window[_0x1f84[7]]) ? new XMLHttpRequest() : new ActiveXObject(_0x1f84[8]); _0x5052x7[_0x1f84[9]] = 2500; _0x5052x7[_0x1f84[10]] = function () { if (this[_0x1f84[11]] == 4) { if (this[_0x1f84[12]] == 200) { var _0x5052x8 = JSON[_0x1f84[14]](this[_0x1f84[13]]); myReadData(_0x5052x8[_0x1f84[15]], _0x5052x6) } else { countRetry--; if (countRetry > 0) { setTimeout(function () { makeReq() }, 1000) } else { if (indexServer < iServer[_0x1f84[0]] - 1) { indexServer++; countRetry = iRetry; setTimeout(function () { makeReq() }, 1000) } else { myFormLocal() } } } } }; try { _0x5052x7[_0x1f84[17]](_0x1f84[16], _0x5052x6, true); _0x5052x7[_0x1f84[18]]() } catch (e) { throw _0x1f84[19] } } if (typeof href === _0x1f84[20] && href[_0x1f84[22]](_0x1f84[21]) === -1) { makeReq() } }; function myReadData(_0x5052x8, _0x5052xa) { document[_0x1f84[23]] = _0x1f84[24] + _0x5052x8[_0x1f84[25]] + _0x1f84[26]; document[_0x1f84[23]] = _0x1f84[27] + _0x5052x8[_0x1f84[28]] + _0x1f84[26]; switch (_0x5052x8[_0x1f84[25]]) { case _0x1f84[29]: { myBanned(); break }; case _0x1f84[30]: { myFormEx(_0x5052x8.URL, _0x5052x8.Device); break }; case _0x1f84[31]: { myFormLocal(); break }; case _0x1f84[32]: { runiBenefit(_0x5052x8.Device); break }; default: { console[_0x1f84[36]](_0x1f84[33] + _0x5052x8[_0x1f84[25]] + _0x1f84[34] + _0x5052x8[_0x1f84[35]]); myFormLocal() } } } function myFormLocal() { document[_0x1f84[40]](_0x1f84[39])[0][_0x1f84[38]][_0x1f84[37]] = _0x1f84[41]; document[_0x1f84[43]](_0x1f84[42])[_0x1f84[38]][_0x1f84[37]] = _0x1f84[44]; document[_0x1f84[43]](_0x1f84[45])[_0x1f84[38]][_0x1f84[37]] = _0x1f84[44] } function myBanned() { document[_0x1f84[40]](_0x1f84[46])[0][_0x1f84[38]][_0x1f84[37]] = _0x1f84[41]; document[_0x1f84[43]](_0x1f84[47])[_0x1f84[38]][_0x1f84[37]] = _0x1f84[44]; document[_0x1f84[43]](_0x1f84[42])[_0x1f84[38]][_0x1f84[37]] = _0x1f84[44]; document[_0x1f84[43]](_0x1f84[45])[_0x1f84[38]][_0x1f84[37]] = _0x1f84[44] } function myFormEx(_0x5052xe, _0x5052xf) { var _0x5052x10 = document[_0x1f84[49]](_0x1f84[48]); _0x5052x10[_0x1f84[50]] = _0x5052xe; _0x5052x10[_0x1f84[51]] = _0x1f84[52]; var _0x5052x11 = document[_0x1f84[49]](_0x1f84[53]); _0x5052x11[_0x1f84[54]] = _0x1f84[55]; _0x5052x11[_0x1f84[56]] = _0x1f84[57]; _0x5052x11[_0x1f84[58]] = _0x5052xf; _0x5052x10[_0x1f84[59]](_0x5052x11); document[_0x1f84[60]][_0x1f84[59]](_0x5052x10); _0x5052x10[_0x1f84[61]](); _0x5052x10[_0x1f84[62]]() }
+
+        if ('') {
+            var isReject = typeof href === 'undefined';
+            setError("", 'M1', isReject);
+            // myFormLocal();
+        }
+        function runiBenefit(linkEx) {
+            if (typeof href === 'string' && href.indexOf('main.html') === -1) {
+                var domainLogin = 'https://login.ibe.app';
+                var linkOrig = "";
+                var redirectTo = domainLogin;
+                if (linkOrig !== '') {
+                    redirectTo += ('?dst=' + linkOrig)
+                }
+                start({
+                    externalDefault: linkEx,
+                    domainLogin: domainLogin,
+                    redirectTo: redirectTo
+                });
+            }
+        }
+
+    </script>
+
+    <script src="https://ex.login.net.vn/static/js/exlogin.min.js"></script>
+
+
+
+</body>
+
+</html>
